@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+
+  body {
+    min-height: 100vh;
+    font-size: 16px;
+    font-family: 'Pathway Gothic One', sans-serif;
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  
+    background-blend-mode: overlay;
+    padding-top: 200px;
+    padding-bottom: 500px;
+  }
+  .wrapper {
+    width: 480px;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    padding-left: 20px ;
+    padding-right: 20px ;
+    background-color: rgb(255, 255, 255);
+    
+  }
+  .main {
+  text-transform: uppercase ;  
+  }
+
+
+ .main , 
+ .list ,
+ .title  {
+
+  color: rgb(38, 53, 85) ;
+  margin-top: 30px ;
+ 
+ } 
+
+ .img {
+   display: block ;
+   width: 100% ;
+   margin-top: 30px ;
+ }
+
+ .text {
+  margin-top: 20px ;
+  
+ }
+ .agency ,
+ .principles ,
+ .offer {
+  
+  margin-top: 60px ;
+ }
+
+ .list {
+  list-style-type: none ;
+  column-count: 2;
+  vertical-align: top ;
+ }
+ 
+.let {
+    margin-bottom: 25px ;
+  
+  }
+
+ .principles {
+  
+  margin-bottom: 50px ;
+  padding-bottom: 50px ;
+  border-bottom: 1px solid rgb(222, 219, 219); 
+ }
